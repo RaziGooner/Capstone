@@ -104,3 +104,9 @@ This main notebook has all the outputs for a run and will provide a good overloo
 | Precision | 0.85           | 0.88                   |
 | Recall    | 0.75           | 0.75                   |
 
+
+## Acknowledgments
+- Dataset: KolektorSDD2 by Visual Cognitive Systems Laboratory University of Ljubljana  
+- Model Architectures: Base U-Net and EfficientNet-B4 encoders adapted from publicly available open-source libraries
+
+
