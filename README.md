@@ -50,14 +50,14 @@ But need to mention a base directory and the path to the downloaded zip file(dat
 
 ## Installation Instructions
 1. Clone the Repository
-   '''
+   ```
    git clone https://github.com/RaziGooner/Capstone.git
    cd Capstone
-   '''
+   ```
 2. Set up the Environment
-   '''
+   ```
    pip install -r requirements.txt
-   '''
+   ```
 
 
 
