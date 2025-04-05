@@ -43,7 +43,7 @@ Capstone/
 
 ## Dataset Preparation
 Download the KolektorSDD2 dataset from https://www.vicos.si/resources/kolektorsdd2/  
-The preparation of data is included in the runtrainer.py. 
+The steps to preparation of data is included in the run_trainer.py. 
 
 But need to mention a base directory and the path to the downloaded zip file(dataset)
 
