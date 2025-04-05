@@ -48,6 +48,17 @@ The steps to preparation of data is included in the run_trainer.py.
 But need to mention a base directory and the path to the downloaded zip file(dataset)
 
 
+## Installation Instructions
+1. Clone the Repository
+   '''
+   git clone https://github.com/RaziGooner/Capstone.git
+   cd Capstone
+   '''
+2. Set up the Environment
+   '''
+   pip install -r requirements.txt
+   '''
+
 
 
 
