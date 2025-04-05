@@ -13,29 +13,37 @@ The core model is a U-Net architecture with an EfficientNet-B4 as encoder, train
 ```
 Capstone/
 ├── src/
-│   ├── model.py                 # U-Net++ model with EfficientNet-B4
-│   ├── utils.py                 # Training loop, plotting, and visualization functions
+│   ├── model.py                 # U-Net model with EfficientNet-B4 (for baseline and active learning initial model)
+│   ├── utils.py                 # Training, plotting, visualization etc.functiions 
 │   ├── prepare_data.py          # Dataset preparation utilities
 │   ├── aug_torchdataset.py      # Dataset class + data augmentation pipelines
 │   ├── evaluation.py            # Metric evaluation functions (IoU, Dice, etc.)
 │   └── active_learning.py       # Active learning loop logic
 │
-├── Capstone/
-│   ├── KolektorSDD2.zip         # (Add instructions for download)
+├── models/
+│   ├── al_model.pt
+│   ├── baseline_model.pt
+│   ├── al_model_initial.pt
+│
+├── data/
+│   ├── KolektorSDD2.zip         # (Added instructions for download)
 │   ├── train_images/            # Training images
 │   ├── train_masks/             # Training masks
 │   ├── test_images/             # Test images
 │   ├── test_masks/              # Test masks
 │   ├── train_data.csv           # Metadata for training
 │   ├── test_data.csv            # Metadata for test
-│   ├── model/
-│   │   ├── baseline_model.pt
-│   │   ├── al_model_initial.pt
-│   │   └── al_model.pt
-│   └── figure/
-│       └── baseline_model_loss.jpg
+│   ├── al_model.pt
+│   ├── baseline_model.pt
+│   ├── al_model_initial.pt
 │
-├── main.py                      # Runs baseline training and active learning
+├── figure/
+│   ├── baseline_model_loss.jpg
+│   ├── initial_al_model_loss.jpg
+│
+├── main.IPYNB                   # Runs baseline training and active learning
+├── model_trainer.py             # prepare data and train and log
+├── test_models.py               # test models on test data and show predictions
 ├── requirements.txt
 └── README.md
 ```
