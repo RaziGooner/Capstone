@@ -41,12 +41,6 @@ Capstone/
 ```
 
 
-## Dataset Preparation
-Download the KolektorSDD2 dataset from https://www.vicos.si/resources/kolektorsdd2/  
-The steps to preparation of data is included in the run_trainer.py. 
-
-But need to mention a base directory and the path to the downloaded zip file(dataset)
-
 
 ## Installation Instructions
 1. Clone the Repository
@@ -59,6 +53,12 @@ But need to mention a base directory and the path to the downloaded zip file(dat
    pip install -r requirements.txt
    ```
 
+
+## Dataset Preparation
+Download the KolektorSDD2 dataset from https://www.vicos.si/resources/kolektorsdd2/  
+The steps to preparation of data is included in the run_trainer.py. 
+
+But need to mention a base directory and the path to the downloaded zip file(dataset)
 
 
 
