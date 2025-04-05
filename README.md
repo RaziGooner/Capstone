@@ -27,8 +27,8 @@ Capstone/
 │   ├── baseline_model.pt
 │   ├── al_model_initial.pt
 │
-├── log/
-│   ├── training_log.txt         # log containing every important details about a run for both training and testing of baseline and active learning
+├── results/
+│   ├── training_log.txt         # log containing every important details about a run for both training and testing of baseline and 
 │
 ├── data/
 │   ├── KolektorSDD2.zip         # (Added instructions to download in the readme file)
@@ -47,7 +47,9 @@ Capstone/
 ├── model_trainer.py             # prepare data and train and log
 ├── test_models.py               # test models on test data and show predictions
 ├── requirements.txt
+├── workflow.png                 # workflow diagram
 └── README.md
+
 ```
 
 
@@ -92,6 +94,9 @@ The test_moddels file will give you the predictions for 3 samples from the test 
 
 ## Notebook 'main.IPYNB'
 This main notebook has all the outputs for a run and will provide a good overlook.
+
+## log
+The log file in results folder records a timestamped entry of a training run, including hyperparameters, data split details, training losses per epoch for baseline and active learning models, and evaluation metrics on the test data for both models.
 
 ## Results
 

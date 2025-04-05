@@ -1,0 +1,193 @@
+
+Run at 2025-04-05 00:18:06
+========================================
+
+Hyperparameters:
+Device: cuda
+Learning Rate (LR): 0.001
+Image Size: 256
+Batch Size: 16
+Encoder: efficientnet-b4
+Weights: imagenet
+Baseline Epochs (EPOCHS): 50
+Initial Active Learning Epochs (EPOCHS_AL_INITIAL): 30
+
+Run at 2025-04-05 00:19:00
+========================================
+
+Hyperparameters:
+Device: cuda
+Learning Rate (LR): 0.001
+Image Size: 256
+Batch Size: 16
+Encoder: efficientnet-b4
+Weights: imagenet
+Baseline Epochs (EPOCHS): 50
+Initial Active Learning Epochs (EPOCHS_AL_INITIAL): 30
+
+Run at 2025-04-05 00:19:41
+========================================
+
+Hyperparameters:
+Device: cuda
+Learning Rate (LR): 0.001
+Image Size: 256
+Batch Size: 16
+Encoder: efficientnet-b4
+Weights: imagenet
+Baseline Epochs (EPOCHS): 50
+Initial Active Learning Epochs (EPOCHS_AL_INITIAL): 30
+Active Learning Budget per Iteration: 50
+
+Run at 2025-04-05 00:20:16
+========================================
+
+Hyperparameters:
+Device: cuda
+Learning Rate (LR): 0.001
+Image Size: 256
+Batch Size: 16
+Encoder: efficientnet-b4
+Weights: imagenet
+Baseline Epochs (EPOCHS): 50
+Initial Active Learning Epochs (EPOCHS_AL_INITIAL): 30
+Active Learning Budget per Iteration: 50
+Active Learning Max Iterations: 15
+
+Run at 2025-04-05 00:21:03
+========================================
+
+Hyperparameters:
+Device: cuda
+Learning Rate (LR): 0.001
+Image Size: 256
+Batch Size: 16
+Encoder: efficientnet-b4
+Weights: imagenet
+Baseline Epochs (EPOCHS): 50
+Initial Active Learning Epochs (EPOCHS_AL_INITIAL): 30
+Active Learning Budget per Iteration: 50
+Active Learning Max Iterations: 15
+Active Learning Epochs per Iteration: 2
+
+Run at 2025-04-05 00:21:38
+========================================
+
+Hyperparameters:
+Device: cuda
+Learning Rate (LR): 0.001
+Image Size: 256
+Batch Size: 16
+Encoder: efficientnet-b4
+Weights: imagenet
+Baseline Epochs (EPOCHS): 50
+Initial Active Learning Epochs (EPOCHS_AL_INITIAL): 30
+Active Learning Budget per Iteration: 50
+Active Learning Max Iterations: 15
+Active Learning Epochs per Iteration: 2
+Active Learning N Show: 1
+
+Data Split:
+Total Training Data: 2331
+Labeled Training Data: 1165 (50% split)
+Unlabeled Training Data: 1166 (50% split)
+Test Data: 1004
+
+Training Losses:
+Baseline Model Losses per Epoch:
+Epoch 1: 0.7071
+Epoch 2: 0.4089
+Epoch 3: 0.3700
+Epoch 4: 0.3731
+Epoch 5: 0.3521
+Epoch 6: 0.3571
+Epoch 7: 0.3385
+Epoch 8: 0.3199
+Epoch 9: 0.3320
+Epoch 10: 0.3382
+Epoch 11: 0.2981
+Epoch 12: 0.3057
+Epoch 13: 0.3125
+Epoch 14: 0.3000
+Epoch 15: 0.2837
+Epoch 16: 0.3189
+Epoch 17: 0.2802
+Epoch 18: 0.2734
+Epoch 19: 0.2794
+Epoch 20: 0.2840
+Epoch 21: 0.2994
+Epoch 22: 0.2417
+Epoch 23: 0.2557
+Epoch 24: 0.2471
+Epoch 25: 0.2657
+Epoch 26: 0.2613
+Epoch 27: 0.2449
+Epoch 28: 0.2365
+Epoch 29: 0.2797
+Epoch 30: 0.2631
+Epoch 31: 0.2532
+Epoch 32: 0.2462
+Epoch 33: 0.2555
+Epoch 34: 0.2379
+Epoch 35: 0.2283
+Epoch 36: 0.2169
+Epoch 37: 0.2173
+Epoch 38: 0.2543
+Epoch 39: 0.2331
+Epoch 40: 0.2085
+Epoch 41: 0.2290
+Epoch 42: 0.2112
+Epoch 43: 0.2375
+Epoch 44: 0.2256
+Epoch 45: 0.2115
+Epoch 46: 0.2180
+Epoch 47: 0.2371
+Epoch 48: 0.2294
+Epoch 49: 0.2150
+Epoch 50: 0.2242
+Initial Active Learning Model Losses per Epoch:
+Epoch 1: 0.8321
+Epoch 2: 0.5633
+Epoch 3: 0.4038
+Epoch 4: 0.3817
+Epoch 5: 0.3993
+Epoch 6: 0.3683
+Epoch 7: 0.3592
+Epoch 8: 0.3493
+Epoch 9: 0.3529
+Epoch 10: 0.3406
+Epoch 11: 0.3531
+Epoch 12: 0.3306
+Epoch 13: 0.2780
+Epoch 14: 0.3037
+Epoch 15: 0.3252
+Epoch 16: 0.3019
+Epoch 17: 0.2870
+Epoch 18: 0.2854
+Epoch 19: 0.2905
+Epoch 20: 0.2536
+Epoch 21: 0.2368
+Epoch 22: 0.2527
+Epoch 23: 0.2421
+Epoch 24: 0.2300
+Epoch 25: 0.2201
+Epoch 26: 0.2389
+Epoch 27: 0.2170
+Epoch 28: 0.1964
+Epoch 29: 0.2141
+Epoch 30: 0.2131
+
+Evaluation Metrics:
+Baseline Model:
+IoU: 0.6634
+Dice: 0.7576
+Accuracy: 0.9989
+Precision: 0.8593
+Recall: 0.7624
+Active Learning Model:
+IoU: 0.6274
+Dice: 0.7268
+Accuracy: 0.9986
+Precision: 0.8595
+Recall: 0.7337
+
