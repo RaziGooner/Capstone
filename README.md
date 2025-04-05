@@ -10,7 +10,8 @@ This project implements an Active Learning framework for semantic segmentation o
 
 The core model is a U-Net architecture with an EfficientNet-B4 as encoder, trained with Dice + Focal loss.
 
-```Capstone/
+```
+Capstone/
 ├── src/
 │   ├── model.py                 # U-Net++ model with EfficientNet-B4
 │   ├── utils.py                 # Training loop, plotting, and visualization functions
