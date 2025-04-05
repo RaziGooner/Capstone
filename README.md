@@ -93,7 +93,7 @@ This main notebook has all the outputs for a run and will provide a good overloo
 
 ## Results
 
-# These results are not final and just results shown for one run. We will do multiple runs and do statistical testing to determine if the active learning model is significantly better than the baseline model
+#### These results are not final and just results shown for one run. We will do multiple runs and do statistical testing to determine if the active learning model is significantly better than the baseline model
 
 
 | Metric    | Baseline Model | Active Learning Model |
