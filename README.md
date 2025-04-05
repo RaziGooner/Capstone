@@ -54,11 +54,25 @@ Capstone/
    ```
 
 
-## Dataset Preparation
+## Dataset Preparation & Training
 Download the KolektorSDD2 dataset from https://www.vicos.si/resources/kolektorsdd2/  
-The steps to preparation of data is included in the run_trainer.py. 
 
-But need to mention a base directory and the path to the downloaded zip file(dataset)
+The steps to prepare data is included in the run_trainer.py.  
+This file will:  
+1. prepare data for training,
+2. Create the necessary data splits and dataloaders,
+3. Initialize the baseline model, initial model for active learning and train them with the default hyperparameters,
+4. Will set the active learning loop off following the default hyperparameters,
+5. Save both the baseline and active learnig model (after active learning iterations)
+6. Evaluate both the models on the test set defined by the dataset authors
+7. will save all the necessary and important information in the log file.
+
+
+Need to mention a base directory and the path to the downloaded zip file(dataset) to run the run_trainer.py file
+
+```
+python run_training.py --base_dir Capstone --zip_path ./Capstone/KolektorSDD2.zip
+```
 
 
 
