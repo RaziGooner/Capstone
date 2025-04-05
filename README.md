@@ -91,4 +91,15 @@ The test_moddels file will give you the predictions for 3 samples from the test 
 ## Notebook 'main.IPYNB'
 This main notebook has all the outputs for a run and will provide a good overlook.
 
+## Results
+
+## Model Evaluation Metrics
+
+| Metric    | Baseline Model | Active Learning Model |
+|-----------|----------------|------------------------|
+| IoU       | 0.6634         | 0.6634                 |
+| Dice      | 0.7576         | 0.7576                 |
+| Accuracy  | 0.9989         | 0.9989                 |
+| Precision | 0.8593         | 0.8693                 |
+| Recall    | 0.7624         | 0.7765                 |
 
