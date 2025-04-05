@@ -27,17 +27,17 @@ Capstone/
 │   ├── baseline_model.pt
 │   ├── al_model_initial.pt
 │
+├── log/
+│   ├── training_log.txt         # log containing every important details about a run for both training and testing of baseline and active learning
+│
 ├── data/
-│   ├── KolektorSDD2.zip         # (Added instructions for download)
-│   ├── train_images/            # Training images
-│   ├── train_masks/             # Training masks
-│   ├── test_images/             # Test images
-│   ├── test_masks/              # Test masks
-│   ├── train_data.csv           # Metadata for training
+│   ├── KolektorSDD2.zip         # (Added instructions to download in the readme file)
+│   ├── train_images/            # Training images (Will put some samples because dataset is large)
+│   ├── train_masks/             # Training masks (Will put some samples because dataset is large)
+│   ├── test_images/             # Test images (Will put some samples because dataset is large)
+│   ├── test_masks/              # Test masks (Will put some samples because dataset is large)
+│   ├── train_data.csv           # Metadata for training 
 │   ├── test_data.csv            # Metadata for test
-│   ├── al_model.pt
-│   ├── baseline_model.pt
-│   ├── al_model_initial.pt
 │
 ├── figure/
 │   ├── baseline_model_loss.jpg
