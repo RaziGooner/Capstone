@@ -97,9 +97,9 @@ This main notebook has all the outputs for a run and will provide a good overloo
 
 | Metric    | Baseline Model | Active Learning Model |
 |-----------|----------------|------------------------|
-| IoU       | 0.6634         | 0.6634                 |
-| Dice      | 0.7576         | 0.7576                 |
-| Accuracy  | 0.9989         | 0.9989                 |
-| Precision | 0.8593         | 0.8693                 |
-| Recall    | 0.7624         | 0.7765                 |
+| IoU       | 0.64           | 0.66                   |
+| Dice      | 0.73           | 0.76                   |
+| Accuracy  | 0.99           | 0.99                   |
+| Precision | 0.85           | 0.88                   |
+| Recall    | 0.75           | 0.75                   |
 
