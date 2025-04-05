@@ -83,4 +83,12 @@ python run_training.py --base_dir Capstone --zip_path ./Capstone/KolektorSDD2.zi
 ```
 
 
+## Testing
+
+The test_moddels file will give you the predictions for 3 samples from the test set for both the baseline model and the active learning model
+
+
+## Notebook 'main.IPYNB'
+This main notebook has all the outputs for a run and will provide a good overlook.
+
 
