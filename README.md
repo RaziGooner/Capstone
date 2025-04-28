@@ -4,6 +4,19 @@
 **Course:** Capstone Project  
 **Date:** 4th April, 2025  
 
+## Abstract
+
+Efficient fault detection in manufacturing is critical for maintaining product quality and operational efficiency. However, traditional manual inspection is labor-intensive, inconsistent, and expensive, while fully automated models often struggle with adaptability and trustworthiness, particularly when labeled data is limited. This project proposes an Active Learning-based Image Segmentation framework designed to reduce the burden of data labeling without compromising segmentation performance. Using a human-in-the-loop approach, the framework incorporates two active learning strategies—Uncertainty Sampling and Expected Model Change (EMC)—to iteratively select the most informative samples for labeling. A U-Net++ model is first trained using supervised learning as a baseline. In the active learning phase, the model iteratively identifies uncertain samples, which are labeled and added to the training set, improving model performance while minimizing labeling effort. Evaluation metrics such as Intersection over Union (IoU), Dice Similarity Coefficient (DSC), Precision, Recall, and G-mean were used to assess model performance. Experimental results demonstrate that the active learning models, particularly those using Uncertainty Sampling, achieved similar or superior segmentation performance compared to the baseline, despite utilizing approximately 35–40% fewer labeled samples. This project highlights the potential of active learning to enhance fault detection systems in manufacturing, improving reliability and efficiency while significantly reducing the need for extensive manual labeling.
+
+## Keyword
+
+Active Learning
+Image Segmentation
+Fault Detection
+Human-in-the-Loop
+Manufacturing Automation
+
+
 ## Overview
 
 This project implements an Active Learning framework for semantic segmentation of surface defects using the KolektorSDD2 dataset. We compare baseline training on the full dataset vs. an active learning loop that iteratively selects the most informative samples to label. An initial model for the active learning is trained on 50% of the total training data which will be used to do the active learning iterations.
