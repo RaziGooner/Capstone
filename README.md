@@ -10,11 +10,7 @@ Efficient fault detection in manufacturing is critical for maintaining product q
 
 ## Keyword
 
-Active Learning,
-Image Segmentation,
-Fault Detection,
-Human-in-the-Loop,
-Manufacturing Automation
+Active Learning, Image Segmentation, Fault Detection, Human-in-the-Loop, Manufacturing Automation
 
 
 ## Overview
