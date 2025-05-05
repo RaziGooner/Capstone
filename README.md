@@ -21,7 +21,7 @@ This project implements an Active Learning framework for semantic segmentation o
 The core model is a U-Net architecture with an EfficientNet-B4 as encoder, trained with Dice + Focal loss.
 
 ```
-Capstone/
+Main Repo/
 ├── src/
 │   ├── model.py                 # U-Net model with EfficientNet-B4 (for baseline and active learning initial model)
 │   ├── utils.py                 # Training, plotting, visualization etc.functiions 
@@ -65,8 +65,8 @@ Capstone/
 ## Installation Instructions
 1. Clone the Repository
    ```
-   git clone https://github.com/RaziGooner/Capstone.git
-   cd Capstone
+   git clone https://github.com/RaziGooner/'.......'.git
+   cd '........'
    ```
 2. Set up the Environment
    ```
@@ -91,7 +91,7 @@ This file will:
 Need to mention a base directory and the path to the downloaded zip file(dataset) to run the run_trainer.py file
 
 ```
-python run_training.py --base_dir Capstone --zip_path ./Capstone/KolektorSDD2.zip
+python run_training.py --base_dir src --zip_path ./src/KolektorSDD2.zip
 ```
 
 
