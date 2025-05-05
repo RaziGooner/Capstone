@@ -1,8 +1,7 @@
 # Active Learning-Based Image Segmentation for Fault Detection
 
-**Author:** Mohammad Raziuddin Chowdhury  
-**Course:** Capstone Project  
-**Date:** 4th April, 2025  
+**Author:** Mohammad Raziuddin Chowdhury   
+**Date:** 4th May, 2025  
 
 ## Abstract
 
@@ -109,16 +108,7 @@ The log file in results folder records a timestamped entry of a training run, in
 
 ## Results
 
-#### These results are not final and just results shown for one run. We will do multiple runs and do statistical testing to determine if the active learning model is significantly better than the baseline model
-
-
-| Metric    | Baseline Model | Active Learning Model |
-|-----------|----------------|------------------------|
-| IoU       | 0.64           | 0.66                   |
-| Dice      | 0.73           | 0.76                   |
-| Accuracy  | 0.99           | 0.99                   |
-| Precision | 0.85           | 0.88                   |
-| Recall    | 0.75           | 0.75                   |
+#### Results are shown in the results folder with two images.
 
 
 ## Acknowledgments
